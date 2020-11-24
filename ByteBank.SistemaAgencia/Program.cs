@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ByteBank.Modelos;
 using ByteBank.Modelos.Funcionarios;
+using ByteBank.SistemaAgencia.Extensoes;
 
 namespace ByteBank.SistemaAgencia
 {
@@ -21,13 +22,7 @@ namespace ByteBank.SistemaAgencia
             idades.Add(38);
             idades.Add(61);
 
-
-            //ListExtensoes.AdicionarVarios(idades, 1, 5687, 1987, 1567, 567);
-
-            idades.AdicionarVarios(5, 448, 7898, 4564);
-            
-
-            //idades.Remove(5);
+            idades.AdicionarVarios(45, 89, 12);
 
             for (int i = 0; i < idades.Count; i++)
             {
