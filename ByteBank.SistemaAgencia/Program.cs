@@ -17,6 +17,8 @@ namespace ByteBank.SistemaAgencia
             {
                 new ContaCorrente(341, 57480),
                 new ContaCorrente(342, 45678),
+                new ContaCorrente(344, 1),
+                new ContaCorrente(344, 99999),
                 new ContaCorrente(340, 48950),
                 new ContaCorrente(290, 18950)
             };
